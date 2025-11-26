@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Webpage</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .card {
+            width: 250px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Dynamic Course List</h1>
+
+    <div class="card-container" id="courseList"></div>
+
+    <script>
+        // Dynamic content
+        const courses = [
+            { title: "Web Development", image: "https://picsum.photos/300?random=1" },
+            { title: "JavaScript Basics", image: "https://picsum.photos/300?random=2" },
+            { title: "UI/UX Design", image: "https://picsum.photos/300?random=3" }
+        ];
+
+        const container = document.getElementById("courseList");
+
+        courses.forEach(c => {
+            container.innerHTML += `
+                <div class="card">
+                    <img src="${c.image}" />
+                    <h3>${c.title}</h3>
+                </div>
+            `;
+        });
+    </script>
+
+</body>
+</html>
+
