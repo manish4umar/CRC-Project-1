@@ -11,6 +11,7 @@ Team Members :- 1. Manish Kumar
 Member 1 – Home Page Developer (Main Page)
 
 Responsibilities:
+
 	•	Create the Home / Landing Page
 	•	Add hero section (banner image, title, subtitle)
 	•	Add navigation links to all 4 team-member pages
@@ -18,6 +19,7 @@ Responsibilities:
 	•	Add footer and contact information
 
 Main Page Features:
+
 	•	Course introduction
 	•	Button (Enroll Now)
 	•	Course preview images
@@ -25,9 +27,10 @@ Main Page Features:
 
 ⸻
 
-Member 2 – Course Details Page
+Member 2 – Course 1 Details Page
 
 Responsibilities:
+
 	•	Create detailed course syllabus page
 	•	Add modules, lessons, units, topics
 	•	Include icons or images
@@ -36,9 +39,10 @@ Responsibilities:
 
 ⸻
 
-Member 3 – Instructor Page
+Member 3 – Course 2 Details Page
 
 Responsibilities:
+
 	•	Create detailed course syllabus page
 	•	Add modules, lessons, units, topics
 	•	Include icons or images
@@ -47,7 +51,7 @@ Responsibilities:
 
 ⸻
 
-Member 4 – Testimonials & Reviews Page
+Member 4 – Course 3 Details Page
 
 RResponsibilities:
 	•	Create detailed course syllabus page
