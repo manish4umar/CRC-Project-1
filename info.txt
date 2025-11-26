@@ -5,6 +5,93 @@ Team Members :- 1. Manish Kumar
                 3. Yuvraj chaudhary
                 4. Jyoti 
 
-Roles :-
 
-Manish kumar =   
+✅ WORK DISTRIBUTION (5 Webpages Total)
+
+Member 1 – Home Page Developer (Main Page)
+
+Responsibilities:
+	•	Create the Home / Landing Page
+	•	Add hero section (banner image, title, subtitle)
+	•	Add navigation links to all 4 team-member pages
+	•	Add course overview section
+	•	Add footer and contact information
+
+Main Page Features:
+	•	Course introduction
+	•	Button (Enroll Now)
+	•	Course preview images
+	•	Navigation menu to all member pages
+
+⸻
+
+Member 2 – Course Details Page
+
+Responsibilities:
+	•	Create detailed course syllabus page
+	•	Add modules, lessons, units, topics
+	•	Include icons or images
+	•	Add timeline or weekly plan
+	•	Use CSS cards for module design
+
+⸻
+
+Member 3 – Instructor Page
+
+Responsibilities:
+	•	Create detailed course syllabus page
+	•	Add modules, lessons, units, topics
+	•	Include icons or images
+	•	Add timeline or weekly plan
+	•	Use CSS cards for module design
+
+⸻
+
+Member 4 – Testimonials & Reviews Page
+
+RResponsibilities:
+	•	Create detailed course syllabus page
+	•	Add modules, lessons, units, topics
+	•	Include icons or images
+	•	Add timeline or weekly plan
+	•	Use CSS cards for module design
+⸻
+
+         
+    .......................FlowChart........................
+
+                   ┌────────────────────────┐
+                   │   Project Start        │
+                   └──────────┬─────────────┘
+                              │
+                 ┌────────────▼─────────────┐
+                 │  Team Work Distribution  │
+                 └───────┬──────────────────┘
+                         │
+ ┌───────────────────────┼─────────────────────────┐
+ │                       │                         │
+ ▼                       ▼                         ▼
+┌─────────────┐   ┌──────────────┐         ┌──────────────┐
+│ Member 1     │   │ Member 2      │         │ Member 3      │
+│ Home Page    │   │ Course Details│         │ Instructor Pg │
+└──────┬──────┘   └──────┬────────┘         └─────┬────────┘
+       │                 │                        │
+       │                 │                        │
+       ▼                 ▼                        ▼
+┌─────────────┐   ┌──────────────┐         ┌──────────────┐
+│ Navigation   │   │ Modules &     │         │ Instructor    │
+│ Layout       │   │ Syllabus      │         │ Profile       │
+└──────┬──────┘   └──────┬────────┘         └─────┬────────┘
+       │                 │                        │
+       └─────────────────┼────────────────────────┘
+                         │
+                         ▼         
+                ┌──────────────────────┐
+                │ Member 4             │
+                │ Compile All Pages    │
+                └──────────┬───────────┘
+                           │
+                     ┌─────▼─────-┐
+                     │  Final     │
+                     │ Submission │
+                     └────────────┘
