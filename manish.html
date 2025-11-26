@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Online Course Website</title>
+    <style>
+        body { margin:0; font-family: Arial, sans-serif; background:#f2f2f2; }
+        header { background:#222; padding:15px; color:white; }
+        nav { display:flex; justify-content:space-between; align-items:center; }
+        nav h2 { margin:0; }
+        nav ul { list-style:none; display:flex; gap:20px; margin:0; padding:0; }
+        nav a { text-decoration:none; color:white; font-weight:bold; }
+
+        .hero { text-align:center; padding:80px 20px; background:linear-gradient(#4b79a1, #283e51); color:white; }
+        .hero .btn { background:white; padding:12px 20px; border-radius:5px; text-decoration:none; color:#222; font-weight:bold; }
+
+        .section { padding:50px 20px; text-align:center; }
+        .course-box { display:flex; justify-content:center; gap:25px; flex-wrap:wrap; margin-top:30px; }
+        .box { background:white; padding:25px; width:200px; border-radius:10px; box-shadow:0 0 8px rgba(0,0,0,0.1); font-size:18px; font-weight:bold; }
+
+        .about, .contact { background:white; padding:40px; width:70%; margin:auto; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+        form input, form textarea { width:100%; padding:10px; margin:10px 0; border-radius:5px; border:1px solid #ccc; }
+        form button { background:#283e51; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer; font-size:16px; }
+
+        footer { background:#222; color:white; text-align:center; padding:15px; margin-top:40px; }
+    </style>
 </head>
 <body>
-    hii <hr>manish
+
+<header>
+    <nav>
+        <h2>Online Course</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#course">Course</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Learn New Skills Online</h1>
+    <p>Join our beginner-friendly and professional online course.</p>
+    <a href="#course" class="btn">Start Learning</a>
+</section>
+
+<section class="section" id="about">
+    <h2>About This Course</h2>
+    <div class="about">
+        <p>This online course teaches HTML, CSS, and complete website building. It is designed for beginners who want to learn web development basics in a simple and easy-to-understand way.</p>
+    </div>
+</section>
+
+<section class="section" id="course">
+    <h2>What You Will Learn</h2>
+    <div class="course-box">
+        <div class="box">HTML Basics</div>
+        <div class="box">CSS Styling</div>
+        <div class="box">Website Layout</div>
+        <div class="box">Responsive Design</div>
+        <div class="box">Project Creation</div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+        <form>
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter your email" required>
+            <textarea rows="5" placeholder="Your message..."></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Online Course Website</p>
+</footer>
+
 </body>
 </html>
